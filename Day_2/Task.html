@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Asmaa Portfolio</title>
+  <style> 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000000, #1e007a, #3f00b5, #6a5acd);
+  text-align: center;
+}
+
+/* Navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100%;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  border-right: 1px solid white;
+  padding-right: 15px;
+}
+
+.nav-links a:hover {
+  color: blue;
+}
+
+.nav-links li:last-child {
+  border-right: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.cv-button {
+  background-color: #ff4ec6;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.cv-button:hover {
+background-color: blue;}
+
+/* Main hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#" class="cv-button">Download my CV</a>
+  </nav>
+
+  <!-- Main Section -->
+  <section class="hero">
+    <p>Hello to</p>
+    <h1>Asmaa Portfolio</h1>
+  </section>
+
+</body>
+</html>
